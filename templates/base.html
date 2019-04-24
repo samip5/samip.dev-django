@@ -1,10 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    {% block head %}
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>It works</title>
+    {% endblock %}
 </head>
 <body>
-
+    <div class="container">
+        {% block body %}
+            <h2>It works</h2>
+        {% endblock %}
+    </div>
 </body>
 </html>
