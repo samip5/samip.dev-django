@@ -192,10 +192,10 @@
         },
         "twilio": {
             "hashes": [
-                "sha256:b3357f7db6768080aa7e15aad484abc7b5153de15d9aae0c1f3436e6151b0aeb"
+                "sha256:3fbe4aa6b57f41237e3cf5b16e247ffeb1c79419137156088e377d5baf5a7bf6"
             ],
             "index": "pypi",
-            "version": "==6.51.1"
+            "version": "==6.52.0"
         },
         "urllib3": {
             "hashes": [
