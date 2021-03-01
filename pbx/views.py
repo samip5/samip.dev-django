@@ -11,39 +11,43 @@ import logging
 logger = logging.getLogger(__name__)
 
 
-request_validator = RequestValidator(twilio_auth_token)
+#request_validator = RequestValidator(twilio_auth_token)
 
 
-def validate_django_request(request: HttpRequest):
-    try:
-        signature = request.META['HTTP_X_TWILIO_SIGNATURE']
-    except KeyError:
-        is_valid_twilio_request = False
-    else:
-        is_valid_twilio_request = request_validator.validate(
-            signature=signature,
-            uri=request.get_raw_uri(),
-            params=request.POST,
-        )
-    if not is_valid_twilio_request:
+#def validate_django_request(request: HttpRequest):
+#    try:
+#        signature = request.META['HTTP_X_TWILIO_SIGNATURE']
+#    except KeyError:
+#        is_valid_twilio_request = False
+#    else:
+#        is_valid_twilio_request = request_validator.validate(
+#            signature=signature,
+#            uri=request.get_raw_uri(),
+#            params=request.POST,
+#        )
+#    if not is_valid_twilio_request:
         # Invalid request from Twilio
-        raise SuspiciousOperation()
+#        raise SuspiciousOperation()
 
 
 @require_POST
 @csrf_exempt
 def welcome(request: HttpRequest) -> HttpResponse:
     vr = VoiceResponse()
-    if business_hours == 1:
+    if business_hours() == 1:
         vr.say("Thank you for calling. Redirecting your call to a human.")
         vr.dial(number='+358402203810')
     else:
         vr.say("We are currently closed.", voice='alice')
-        vr.pause(length=0.5)
+        vr.pause(length=1)
         vr.say(f"Our business hours are ten till sixteen, Monday though Friday.")
-        vr.pause(length=0.5)
+        vr.pause(length=1)
         vr.hangup()
     return HttpResponse(str(vr), content_type='text/xml')
+
+
+def test(request):
+    return HttpResponse(business_hours(), content_type='text/plain')
 
 
 

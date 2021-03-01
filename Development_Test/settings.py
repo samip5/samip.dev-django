@@ -26,7 +26,7 @@ SECRET_KEY = 'e7s=%tu!ra!2n3^=a1eb#r%87=pl*=x(j7&$i+h4)n@s-w7=@k'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['samip.dev', '127.0.0.1', '.eu.ngrok.io']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition

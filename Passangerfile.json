@@ -1,0 +1,7 @@
+{
+    "address": 0.0.0.0,
+    "port": 40053,
+    "log_file": "app.log",
+    "environment": "development",
+    "python": "python3.7"
+}

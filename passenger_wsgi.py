@@ -1,6 +1,6 @@
 import sys, os
 ApplicationDirectory = 'Development_Test'
-ApplicationName = 'DevelopmentTest'
+ApplicationName = 'Development_Test'
 VirtualEnvDirectory = 'venv'
 VirtualEnv = os.path.join(os.getcwd(), VirtualEnvDirectory, 'bin', 'python')
 if sys.executable != VirtualEnv: os.execl(VirtualEnv, VirtualEnv, *sys.argv)
