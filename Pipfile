@@ -5,7 +5,7 @@ name = "pypi"
 
 [packages]
 pytz = "==2021.1"
-sqlparse = "==0.4.1"
+sqlparse = "==0.4.2"
 Django = "==3.2.4"
 twilio = "*"
 flask = "*"
