@@ -157,10 +157,11 @@
         },
         "pyjwt": {
             "hashes": [
-                "sha256:5c6eca3c2940464d106b99ba83b00c6add741c9becaec087fb7ccdefea71350e",
-                "sha256:8d59a976fb773f3e6a39c85636357c4f0e242707394cadadd9814f5cbaa20e96"
+                "sha256:a0b9a3b4e5ca5517cac9f1a6e9cd30bf1aa80be74fcdf4e28eded582ecfcfbae",
+                "sha256:b0ed5824c8ecc5362e540c65dc6247567db130c4226670bf7699aec92fb4dae1"
             ],
-            "version": "==1.7.1"
+            "markers": "python_version >= '3.6'",
+            "version": "==2.2.0"
         },
         "python-dateutil": {
             "hashes": [
@@ -204,10 +205,10 @@
         },
         "twilio": {
             "hashes": [
-                "sha256:b3357f7db6768080aa7e15aad484abc7b5153de15d9aae0c1f3436e6151b0aeb"
+                "sha256:5d669bf92037cfa231bf8aa336b9e38763e18d16309ddbc5d66b21b00bbad157"
             ],
             "index": "pypi",
-            "version": "==6.51.1"
+            "version": "==7.1.0"
         },
         "urllib3": {
             "hashes": [
@@ -219,11 +220,11 @@
         },
         "werkzeug": {
             "hashes": [
-                "sha256:1de1db30d010ff1af14a009224ec49ab2329ad2cde454c8a708130642d579c42",
-                "sha256:6c1ec500dcdba0baa27600f6a22f6333d8b662d22027ff9f6202e3367413caa8"
+                "sha256:63d3dc1cf60e7b7e35e97fa9861f7397283b75d765afcaefd993d6046899de8f",
+                "sha256:aa2bb6fc8dee8d6c504c0ac1e7f5f7dc5810a9903e793b6f715a9f015bdadb9a"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==2.0.1"
+            "version": "==2.0.2"
         }
     },
     "develop": {}
