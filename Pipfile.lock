@@ -41,11 +41,11 @@
         },
         "charset-normalizer": {
             "hashes": [
-                "sha256:876d180e9d7432c5d1dfd4c5d26b72f099d503e8fcc0feb7532c9289be60fcbd",
-                "sha256:cb957888737fc0bbcd78e3df769addb41fd1ff8cf950dc9e7ad7793f1bf44455"
+                "sha256:2842d8f5e82a1f6aa437380934d5e1cd4fcf2003b06fed6940769c164a480a45",
+                "sha256:98398a9d69ee80548c762ba991a4728bfc3836768ed226b3945908d1a688371c"
             ],
             "markers": "python_version >= '3'",
-            "version": "==2.0.10"
+            "version": "==2.0.11"
         },
         "click": {
             "hashes": [
@@ -220,11 +220,11 @@
         },
         "twilio": {
             "hashes": [
-                "sha256:8e2f487e49a37da9caf61bfc3ca61883c8af5f478aafe4160cce738f81bd1e5a",
-                "sha256:d6f22603065b6bac232e0fb16e9a35abb71b6a9b38b7aa7fccf64d37aff4d01c"
+                "sha256:11b4dad540359356fedf42312bf293c57a550a7bed5f30c992e5820adf4b1fc1",
+                "sha256:df136f5ef8fd03a8c9d196cd2acd3c64afc8b9747f7576faf444d02c0fbabede"
             ],
             "index": "pypi",
-            "version": "==7.5.1"
+            "version": "==7.6.0"
         },
         "urllib3": {
             "hashes": [
@@ -236,11 +236,11 @@
         },
         "werkzeug": {
             "hashes": [
-                "sha256:63d3dc1cf60e7b7e35e97fa9861f7397283b75d765afcaefd993d6046899de8f",
-                "sha256:aa2bb6fc8dee8d6c504c0ac1e7f5f7dc5810a9903e793b6f715a9f015bdadb9a"
+                "sha256:1421ebfc7648a39a5c58c601b154165d05cf47a3cd0ccb70857cbdacf6c8f2b8",
+                "sha256:b863f8ff057c522164b6067c9e28b041161b4be5ba4d0daceeaa50a163822d3c"
             ],
             "markers": "python_version >= '3.6'",
-            "version": "==2.0.2"
+            "version": "==2.0.3"
         }
     },
     "develop": {}
